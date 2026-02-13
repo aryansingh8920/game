@@ -8,6 +8,7 @@ h1{
     color: white;
     height: 5rem;
     line-height: 5rem;
+    
 
 }
 .choice{
@@ -58,4 +59,29 @@ h1{
     border-radius: 1rem;
     padding: 10px;
 
+}
+@media only screen and (max-width:470px){
+    .choice img{
+        height: 140px;
+        width: 140px;
+    }
+   .choices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+   }   
+   h1{
+    height: 2rem;
+    line-height: 2rem;
+    position: relative;
+
+   }  
+  .msg-container{
+    margin-top: 20px;
+  }
+  .score-board{
+    margin-top: 15px;
+  }  
 }
